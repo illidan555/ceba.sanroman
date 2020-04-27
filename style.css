@@ -144,7 +144,7 @@ img {
   position: relative;
   z-index: 1;
   max-width: 600px;
-  margin-bottom: 80px !important; }
+  margin-bottom: 30px !important; }
   .section-heading span {
     color: #606060;
     font-size: 12px;
@@ -327,10 +327,10 @@ img {
   position: relative;
   z-index: 100;
   width: 100%;
-  height: 125px; }
+  height: 170px; }
   .header-area .top-header {
     width: 100%;
-    height: 95px; }
+    height: 141px; }
     .header-area .top-header .login-content a {
       display: inline-block;
       font-weight: 600; }
@@ -341,7 +341,7 @@ img {
     width: 100%;
     height: 85px;
     background-color: transparent;
-    top: 95px;
+    top: 141px;
     z-index: 100;
     left: 0;
     right: 0; }
@@ -708,6 +708,18 @@ img {
       .single-top-popular-course .popular-course-thumb {
         height: 250px; } }
 
+.popular-course-details-area{
+  padding: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 767px) {
+  .popular-course-details-area {
+    padding: 0px;
+    width: 100%; 
+  }
+ }
 .popular-course-details-area .single-top-popular-course {
   margin-bottom: 0; }
   .popular-course-details-area .single-top-popular-course .popular-course-content {
@@ -740,7 +752,7 @@ img {
         max-width: 100%;
         width: 100%; } }
     .popular-course-details-area .single-top-popular-course .popular-course-content h5 {
-      font-size: 36px;
+      font-size: 45px;
       font-weight: 500;
       margin-bottom: 8px;
       margin-left: -2px; }
@@ -959,7 +971,7 @@ img {
 /* Blog Area CSS */
 @media only screen and (max-width: 767px) {
   .academy-blog-sidebar {
-    margin-top: 100px; } }
+    margin-top: 10px; } }
 
 .single-blog-post {
   background-color: #eef3f6;
